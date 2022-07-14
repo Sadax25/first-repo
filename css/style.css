@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #4297df;
+    background-image: linear-gradient(to bottom, #4297df, white);
     grid-area: head;
 }
 
@@ -93,6 +93,11 @@ header {
     height: 200px;
     width: auto;
     margin: 10px;
+    transition: height 2s;
+}
+
+.div__imgs:hover {
+    height: 230px;
 }
 
 .texto {
@@ -120,7 +125,7 @@ footer {
     align-items: center;
     height: 6rem;
     grid-area: foot;
-    background-color: #4297df;
+    background-image: linear-gradient(to top, #4297df, white);
 }
 
 .footer__link {
