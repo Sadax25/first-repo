@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/LogoSinFondo.png" type="image/x-icon">
+    <title>Galería</title>
+    <link rel="stylesheet" href="../css/style.css">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <header> 
+        <picture>
+            <img src="../imgs/LogoSinFondo.png" alt="Logo" id="picture__logo">
+        </picture>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item"><a href="../index.html" class="menu__link">Inicio</a></li>
+                <!-- <li class="menu__item"><a href="./paginas/cursos.html" class="menu__link">Cursos</a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="./paginas/remanufacturacion.html" class="submenu__link">Remanufacturación</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="./paginas/reparacion.html" class="submenu__link">Reparación</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="./paginas/software.html" class="submenu__link">Software</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li class="menu__item">
+                    <a href="galeria.html" class="menu__link menu__link--modifier">Galería</a>
+                </li>
+                <!-- <li class="menu__item">
+                    <a href="./paginas/productos.html" class="menu__link">Productos</a>
+                </li> -->
+                <li class="menu__item">
+                    <a href="contacto.html" class="menu__link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../imgs/Foto-3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                <img src="../imgs/Foto-1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="../imgs/Foto-4.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="https://wa.me/+5492216106125" class="footer__link">Contactanos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="footer__link">Términos y Condiciones</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
